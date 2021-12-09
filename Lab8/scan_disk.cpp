@@ -23,6 +23,8 @@ int main()
         if (max_left_index == -1)
         {
             distance = requests[6] - head;
+        }else if(min_right_index==-1){
+            distance = head;
         }
         else
         {
@@ -35,6 +37,8 @@ int main()
         if (min_right_index == -1)
         {
             distance = head - requests[0];
+        }else if(max_left_index==-1){
+            distance = 199-head;
         }
         else
         {

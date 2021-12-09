@@ -38,7 +38,7 @@ int main()
         }
         else
         {
-            distance = (requests[7] - head) + (requests[7] - requests[0]);
+            distance = (requests[6] - head) + (requests[6] - requests[0]);
         }
     }
     cout << "Distance is " << distance;
